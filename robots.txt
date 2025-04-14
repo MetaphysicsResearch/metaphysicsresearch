@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /  # Disallows crawling if accessed via GitHub Pages
+Allow: /    # Allows crawling for the custom domain (handled by canonicals)
