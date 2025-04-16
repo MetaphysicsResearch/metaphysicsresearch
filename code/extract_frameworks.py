@@ -4,6 +4,7 @@ import csv
 import requests
 from datetime import datetime
 import re
+from collections import defaultdict
 
 def get_api_key():
     api_key = os.environ.get("OPR_APIKEY")
@@ -86,13 +87,17 @@ def main():
         print(str(e))
         sys.exit(1)
 
-    # Create output CSV file inside the data directory with _ prefix
+    # Create output CSV files inside the data directory with _ prefix
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_file = os.path.join(data_dir, f"_frameworks_{timestamp}.csv")
+    frameworks_file = os.path.join(data_dir, f"_frameworks_{timestamp}.csv")
+    stats_file = os.path.join(data_dir, f"_frameworks_stats_{timestamp}.csv")
     
-    with open(output_file, 'w', newline='') as csvfile:
+    # Dictionary to store framework counts
+    framework_counts = defaultdict(float)
+    
+    with open(frameworks_file, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=";")
-        writer.writerow(['Execution', 'Model', 'Frameworks'])
+        writer.writerow(['Execution', 'Frameworks'])
         
         # Process each model response file
         for filename in os.listdir(data_dir):
@@ -104,21 +109,34 @@ def main():
                 file_path = os.path.join(data_dir, filename)
                 response_text = read_file(file_path)
                 
-                # Extract model name from filename
-                model_name = extract_model_name(filename)
-                
                 # Extract frameworks
                 frameworks = extract_frameworks(response_text, api_key)
                 
                 # Write to CSV
-                writer.writerow([filename, model_name, frameworks])
+                writer.writerow([filename, frameworks])
                 print(f"Processed {filename}")
+                
+                # Update framework counts with weighted values
+                if frameworks:
+                    weight = 1.0 / len(frameworks)
+                    for framework in frameworks:
+                        framework_counts[framework] += weight
                 
             except Exception as e:
                 print(f"Error processing {filename}: {str(e)}")
                 continue
 
-    print(f"\nResults saved to {output_file}")
+    # Write framework statistics to CSV
+    with open(stats_file, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile, delimiter=";")
+        writer.writerow(['Framework', 'Count'])
+        # Sort frameworks by count in descending order
+        for framework, count in sorted(framework_counts.items(), key=lambda x: x[1], reverse=True):
+            writer.writerow([framework, count])
+
+    print(f"\nResults saved to:")
+    print(f"- Framework details: {frameworks_file}")
+    print(f"- Framework statistics: {stats_file}")
 
 if __name__ == "__main__":
     main() 
