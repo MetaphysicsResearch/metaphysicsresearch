@@ -1,4 +1,33 @@
 
+# Draft 
+
+* materialism, dualism, panpsychism, or idealism
+    Consider the ongoing debate in metaphysics, including the most advanced forms of physicalism, monism, dualism, panpsychism, idealism, and others.
+* contemporary science -> more neutral
+    Evaluate how well each framework accommodates the most challenging empirical findings and theoretical puzzles in contemporary science.
+
+## PROMPT 6
+As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream status. Consider the ongoing debate in metaphysics, including the most advanced forms of physicalism, monism, dualism, panpsychism, idealism, and others. Evaluate how well each framework accommodates the most challenging empirical findings and theoretical puzzles in contemporary science.
+
+## PROMPT 7
+As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream status. Evaluate how well each framework accommodates the most challenging empirical findings and theoretical puzzles in contemporary science.
+
+## PROMPT 8 
+As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream status.
+
+## PROMPT GROK
+As an AI system with advanced reasoning capabilities, identify and assess the most challenging scientific findings—empirical or theoretical—that shape our understanding of reality, as of April 2025. Consider recent discoveries across disciplines, including but not limited to neuroscience, quantum physics, cosmology, and consciousness studies. Evaluate how these findings align with or challenge major metaphysical frameworks. Prioritize explanatory coherence and compatibility with evidence, regardless of a framework’s mainstream acceptance. Provide a clear conclusion on which framework(s) best accommodate these findings.
+
+## PROMPT GROK SIMPLER
+As an AI system with advanced reasoning capabilities, identify and assess the most challenging scientific findings—empirical or theoretical—that shape our understanding of reality, as of April 2025. Evaluate how these findings align with or challenge major metaphysical frameworks. Prioritize explanatory coherence and compatibility with evidence, regardless of a framework’s mainstream acceptance. Provide a clear conclusion on which framework best accommodate these findings.
+
+## PROMPT GROK SIMPLER
+As an AI system with advanced reasoning capabilities, identify and assess the most challenging scientific findings—empirical or theoretical—that shape our understanding of reality, as of April 2025. Identify and assess the most phylosophicaly rigorous metaphysical frameworks and evaluate how these findings align with or challenge the metaphysical frameworks. Prioritize explanatory coherence and compatibility with evidence, regardless of a framework’s mainstream acceptance. Provide a clear conclusion on which framework best accommodate these findings.
+
+## GROK REFINED
+As an AI with advanced reasoning capabilities, identify the most significant scientific findings—empirical or theoretical—as of April 2025 that fundamentally shape our understanding of reality. Evaluate the most philosophically rigorous metaphysical frameworks, assessing how these findings align with or challenge them. Prioritize frameworks based on explanatory coherence and compatibility with evidence, regardless of mainstream acceptance. Conclude with a clear recommendation on which framework best accommodates these findings.
+
+
 # Main prompt
 
 We choose PROMPT 3 as the most adequate:
