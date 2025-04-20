@@ -1,4 +1,37 @@
 
+# Ideias 20250420
+
+Usar temperatura 0 (see https://artificialanalysis.ai/methodology/intelligence-benchmarking)
+Executar para 3 variações de prompts: mínimo, mínimo + regardeless mainstream, máximo 
+
+## Minimo 
+As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality.
+
+## Minimo + regardless 
+As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance.
+
+## Maximo
+As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance.
+Use the following uniform criteria: empirical adequacy, explanatory scope, ontological parsimony, conceptual coherence, and ability to address consciousness and quantum phenomena. Consider findings from neuroscience, contemporary physics, information theory, and cosmology.
+Frameworks to evaluate include (in alphabetical order):
+* Dualisms (Anomalous Monism, Hylomorphic Substance Dualism, Property Dualism)
+* Emergentisms (Double‑Aspect, Strong, Weak)
+* Enactivism/Embodied Realism
+* Holographic/AdS–CFT Ontologies
+* Idealisms (Analytic, Subjective, Transcendental)
+* Information‑Theoretic (Digital Physics, Pancomputationalism)
+* Monisms (Analytic Idealism, Neutral/Dual‑Aspect, Panpsychism)
+* Physicalisms (Functionalism, Identity Theory, Non‑Reductive, Reductive)
+* Process Philosophy
+* Quantum‑Interpretation Ontologies (Collapse Theories, Many‑Worlds, QBism)
+* Relational & Structural Realism
+* Speculative Realism/New Materialism
+* (Feel free to consider any other relevant frameworks.)
+
+
+# ############################
+## OLD 
+
 # Draft 
 
 * materialism, dualism, panpsychism, or idealism
@@ -51,6 +84,7 @@ As an AI system with advanced reasoning capabilities, assess which metaphysical 
 
 ## PROMPT 2
 As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality. Evaluate how well each framework accommodates empirical findings and theoretical puzzles in consciousness science, contemporary physics, neuroscience, and related fields.
+
 
 ## PROMPT 1
 As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality.

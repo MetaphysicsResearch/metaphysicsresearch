@@ -48,7 +48,9 @@ def extract_frameworks(response_text, api_key):
     full_prompt = f"{prompt_template}\n{response_text}"
     
     # Call OpenRouter with grok-3-beta
-    result = call_openrouter(full_prompt, "x-ai/grok-3-beta", api_key)
+    # result = call_openrouter(full_prompt, "x-ai/grok-3-beta", api_key)
+    # result = call_openrouter(full_prompt, "deepseek/deepseek-chat-v3-0324", api_key)
+    result = call_openrouter(full_prompt, "openai/o4-mini-high", api_key)
     
     # Extract JSON array from the result
     try:
@@ -100,7 +102,7 @@ def main():
         writer.writerow(['Execution', 'Frameworks'])
         
         # Process each model response file
-        for filename in os.listdir(data_dir):
+        for filename in sorted(os.listdir(data_dir)):
             if not filename.endswith('.md') or filename.startswith('_'):
                 continue
                 
@@ -111,6 +113,9 @@ def main():
                 
                 # Extract frameworks
                 frameworks = extract_frameworks(response_text, api_key)
+                
+                # Sort frameworks alphabetically
+                frameworks.sort()
                 
                 # Write to CSV
                 writer.writerow([filename, frameworks])
