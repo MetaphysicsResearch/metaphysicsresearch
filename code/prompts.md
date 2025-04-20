@@ -4,13 +4,21 @@
 Usar temperatura 0 (see https://artificialanalysis.ai/methodology/intelligence-benchmarking)
 Executar para 3 variações de prompts: mínimo, mínimo + regardeless mainstream, máximo 
 
-## Minimo 
+## Min 
 As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality.
 
-## Minimo + regardless 
+## Min + regardless 
 As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance.
 
-## Maximo
+## Mid
+As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance.
+Use the following uniform criteria: empirical adequacy, explanatory scope, ontological parsimony, conceptual coherence, and ability to address consciousness and quantum phenomena.
+
+## Max
+As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance.
+Use the following uniform criteria: empirical adequacy, explanatory scope, ontological parsimony, conceptual coherence, and ability to address consciousness and quantum phenomena. Consider findings from neuroscience, contemporary physics, information theory, and cosmology.
+
+## Max + list
 As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance.
 Use the following uniform criteria: empirical adequacy, explanatory scope, ontological parsimony, conceptual coherence, and ability to address consciousness and quantum phenomena. Consider findings from neuroscience, contemporary physics, information theory, and cosmology.
 Frameworks to evaluate include (in alphabetical order):
