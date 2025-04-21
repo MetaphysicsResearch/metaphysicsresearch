@@ -36,6 +36,24 @@ Frameworks to evaluate include (in alphabetical order):
 * Speculative Realism/New Materialism
 * (Feel free to consider any other relevant frameworks.)
 
+## Mid + list
+As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance.
+Use the following uniform criteria: empirical adequacy, explanatory scope, ontological parsimony, conceptual coherence, and ability to address consciousness and quantum phenomena.
+Frameworks to evaluate include (in alphabetical order):
+* Dualisms (Anomalous Monism, Hylomorphic Substance Dualism, Property Dualism)
+* Emergentisms (Double‑Aspect, Strong, Weak)
+* Enactivism/Embodied Realism
+* Holographic/AdS–CFT Ontologies
+* Idealisms (Analytic, Subjective, Transcendental)
+* Information‑Theoretic (Digital Physics, Pancomputationalism)
+* Monisms (Analytic Idealism, Neutral/Dual‑Aspect, Panpsychism)
+* Physicalisms (Functionalism, Identity Theory, Non‑Reductive, Reductive)
+* Process Philosophy
+* Quantum‑Interpretation Ontologies (Collapse Theories, Many‑Worlds, QBism)
+* Relational & Structural Realism
+* Speculative Realism/New Materialism
+* (Feel free to consider any other relevant frameworks.)
+
 
 # ############################
 ## OLD 

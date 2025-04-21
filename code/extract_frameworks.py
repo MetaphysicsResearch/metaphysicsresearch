@@ -4,7 +4,6 @@ import csv
 import requests
 from datetime import datetime
 import re
-from collections import defaultdict
 
 def get_api_key():
     api_key = os.environ.get("OPR_APIKEY")
@@ -48,8 +47,6 @@ def extract_frameworks(response_text, api_key):
     full_prompt = f"{prompt_template}\n{response_text}"
     
     # Call OpenRouter with grok-3-beta
-    # result = call_openrouter(full_prompt, "x-ai/grok-3-beta", api_key)
-    # result = call_openrouter(full_prompt, "deepseek/deepseek-chat-v3-0324", api_key)
     result = call_openrouter(full_prompt, "openai/o4-mini-high", api_key)
     
     # Extract JSON array from the result
@@ -89,13 +86,9 @@ def main():
         print(str(e))
         sys.exit(1)
 
-    # Create output CSV files inside the data directory with _ prefix
+    # Create output CSV file inside the data directory with _ prefix
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     frameworks_file = os.path.join(data_dir, f"_frameworks_{timestamp}.csv")
-    stats_file = os.path.join(data_dir, f"_frameworks_stats_{timestamp}.csv")
-    
-    # Dictionary to store framework counts
-    framework_counts = defaultdict(float)
     
     with open(frameworks_file, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=";")
@@ -121,27 +114,11 @@ def main():
                 writer.writerow([filename, frameworks])
                 print(f"Processed {filename}")
                 
-                # Update framework counts with weighted values
-                if frameworks:
-                    weight = 1.0 / len(frameworks)
-                    for framework in frameworks:
-                        framework_counts[framework] += weight
-                
             except Exception as e:
                 print(f"Error processing {filename}: {str(e)}")
                 continue
 
-    # Write framework statistics to CSV
-    with open(stats_file, 'w', newline='') as csvfile:
-        writer = csv.writer(csvfile, delimiter=";")
-        writer.writerow(['Framework', 'Count'])
-        # Sort frameworks by count in descending order
-        for framework, count in sorted(framework_counts.items(), key=lambda x: x[1], reverse=True):
-            writer.writerow([framework, count])
-
-    print(f"\nResults saved to:")
-    print(f"- Framework details: {frameworks_file}")
-    print(f"- Framework statistics: {stats_file}")
+    print(f"\nResults saved to: {frameworks_file}")
 
 if __name__ == "__main__":
     main() 

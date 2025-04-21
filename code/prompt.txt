@@ -1,5 +1,5 @@
 As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance.
-Use the following uniform criteria: empirical adequacy, explanatory scope, ontological parsimony, conceptual coherence, and ability to address consciousness and quantum phenomena. Consider findings from neuroscience, contemporary physics, information theory, and cosmology.
+Use the following uniform criteria: empirical adequacy, explanatory scope, ontological parsimony, conceptual coherence, and ability to address consciousness and quantum phenomena.
 Frameworks to evaluate include (in alphabetical order):
 * Dualisms (Anomalous Monism, Hylomorphic Substance Dualism, Property Dualism)
 * Emergentisms (Double‑Aspect, Strong, Weak)
