@@ -1,16 +1,51 @@
-As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance.
-Use the following uniform criteria: empirical adequacy, explanatory scope, ontological parsimony, conceptual coherence, and ability to address consciousness and quantum phenomena.
-Frameworks to evaluate include (in alphabetical order):
-* Dualisms (Anomalous Monism, Hylomorphic Substance Dualism, Property Dualism)
-* Emergentisms (Double‑Aspect, Strong, Weak)
-* Enactivism/Embodied Realism
-* Holographic/AdS–CFT Ontologies
-* Idealisms (Analytic, Subjective, Transcendental)
-* Information‑Theoretic (Digital Physics, Pancomputationalism)
-* Monisms (Analytic Idealism, Neutral/Dual‑Aspect, Panpsychism)
-* Physicalisms (Functionalism, Identity Theory, Non‑Reductive, Reductive)
-* Process Philosophy
-* Quantum‑Interpretation Ontologies (Collapse Theories, Many‑Worlds, QBism)
-* Relational & Structural Realism
-* Speculative Realism/New Materialism
-* (Feel free to consider any other relevant frameworks.)
+Evaluate the philosophical rigor of competing metaphysical frameworks.
+
+### Task  
+For **each** framework below:  
+
+1. **Score** it from 1 – 5 on the uniform criteria:  
+   • Empirical adequacy  
+   • Explanatory scope  
+   • Ontological parsimony  
+   • Conceptual coherence  
+   • Capacity to address **both** consciousness **and** quantum phenomena  
+2. Supply a concise justification (≈ 75 words) that may reference findings from neuroscience, contemporary physics, information theory, and cosmology.
+
+After all individual evaluations, **rank** the frameworks from strongest (1) to weakest and give a brief overall verdict (≤ 150 words) highlighting the winner and key trade‑offs among the runners‑up.
+
+### Frameworks to evaluate (alphabetical)  
+- Analytic Idealism  
+- Aristotelian‑Thomistic Metaphysics  
+- Digital Physics / Pan‑computationalism  
+- Dual‑Aspect Monism  
+- Flat Ontology / Object‑Oriented Ontology  
+- Holographic / AdS‑CFT Ontology  
+- Neutral Monism  
+- Non‑reductive Physicalism  
+- Ontic Structural Realism  
+- Ontological Emergentism  
+- Property Dualism  
+- Protyposis  
+- Reductive / Eliminative Materialism  
+- Relational Quantum Ontology  
+- Russellian Panpsychism  
+- Whiteheadian Process Metaphysics  
+
+### Output format  
+```
+### [Framework Name]
+Empirical adequacy: X/5
+Explanatory scope: X/5
+Ontological parsimony: X/5
+Conceptual coherence: X/5
+Consciousness & quantum: X/5
+Justification: ...
+
+(repeat for every framework)
+
+## Comparative Ranking
+1. ...
+2. ...
+...
+Overall Verdict: ...
+```

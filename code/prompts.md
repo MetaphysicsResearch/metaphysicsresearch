@@ -54,6 +54,110 @@ Frameworks to evaluate include (in alphabetical order):
 * Speculative Realism/New Materialism
 * (Feel free to consider any other relevant frameworks.)
 
+## list
+analytic idealism
+aristotelian-thomistic methaphysics
+digital physics
+dual-aspect monism
+holographic/ads–cft ontologies
+idealism
+information theorectic ontology
+neutral monism
+non-reductive physicalism
+panpsychism
+physicalism
+process philosophy
+relational/structural realism
+russelian monism
+structural realism
+
+## New list Max
+As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance.
+Use the following uniform criteria: empirical adequacy, explanatory scope, ontological parsimony, conceptual coherence, and ability to address consciousness and quantum phenomena. Consider findings from neuroscience, contemporary physics, information theory, and cosmology.
+Evaluate the following contemporary frameworks (in alphabetical order): 
+* Analytic Idealism
+* Aristotelian-Thomistic metaphysics
+* Holographic/AdS-CFT Ontology
+* Neutral Monism
+* Non-reductive Physicalism
+* Property Dualism
+* Protyposis
+* Russellian panpsychism
+* Structural Realism
+* Whiteheadean Process Metaphysics
+
+## New list Max (-regardless)
+As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality.
+Use the following uniform criteria: empirical adequacy, explanatory scope, ontological parsimony, conceptual coherence, and ability to address consciousness and quantum phenomena. Consider findings from neuroscience, contemporary physics, information theory, and cosmology.
+Evaluate the following contemporary frameworks (in alphabetical order): 
+* Analytic Idealism
+* Aristotelian-Thomistic metaphysics
+* Holographic/AdS-CFT Ontology
+* Neutral Monism
+* Non-reductive Physicalism
+* Property Dualism
+* Protyposis
+* Russellian panpsychism
+* Structural Realism
+* Whiteheadean Process Metaphysics
+
+
+
+## o3 prompt design
+
+Evaluate the philosophical rigor of competing metaphysical frameworks.
+
+### Task  
+For **each** framework below:  
+
+1. **Score** it from 1 – 5 on the uniform criteria:  
+   • Empirical adequacy  
+   • Explanatory scope  
+   • Ontological parsimony  
+   • Conceptual coherence  
+   • Capacity to address **both** consciousness **and** quantum phenomena  
+2. Supply a concise justification (≈ 75 words) that may reference findings from neuroscience, contemporary physics, information theory, and cosmology.
+
+After all individual evaluations, **rank** the frameworks from strongest (1) to weakest and give a brief overall verdict (≤ 150 words) highlighting the winner and key trade‑offs among the runners‑up.
+
+### Frameworks to evaluate (alphabetical)  
+- Analytic Idealism  
+- Aristotelian‑Thomistic Metaphysics  
+- Digital Physics / Pan‑computationalism  
+- Dual‑Aspect Monism  
+- Flat Ontology / Object‑Oriented Ontology  
+- Holographic / AdS‑CFT Ontology  
+- Neutral Monism  
+- Non‑reductive Physicalism  
+- Ontic Structural Realism  
+- Ontological Emergentism  
+- Property Dualism  
+- Protyposis  
+- Reductive / Eliminative Materialism  
+- Relational Quantum Ontology  
+- Russellian Panpsychism  
+- Whiteheadian Process Metaphysics  
+
+### Output format  
+```
+### [Framework Name]
+Empirical adequacy: X/5
+Explanatory scope: X/5
+Ontological parsimony: X/5
+Conceptual coherence: X/5
+Consciousness & quantum: X/5
+Justification: ...
+
+(repeat for every framework)
+
+## Comparative Ranking
+1. ...
+2. ...
+...
+Overall Verdict: ...
+```
+
+
 
 # ############################
 ## OLD 
