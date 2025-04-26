@@ -1,229 +1,56 @@
 
+## Original Prompt (Article April 10)
+
+As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance. Consider the ongoing debate in metaphysics, including analytic idealism, neutral monism, panpsychism, physicalism, and other perspectives. Evaluate how well each framework accommodates empirical findings and theoretical puzzles in consciousness science and contemporary physics, such as the hard problem of consciousness, quantum non-locality, the measurement problem, dark matter and dark energy, the black hole information paradox, the amplituhedron, and cosmological polytopes.
+
+
+## Variation expanding frameworks
+
+As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance. 
+Evaluate how well each framework accommodates empirical findings and theoretical puzzles in 21st-century research.
+Conclude by identifying the strongest and weakest frameworks.
+Frameworks to evaluate (alphabetical):
+- Analytic Idealism 
+- Cosmopsychism
+- Dual‑Aspect Monism
+- Eliminative Materialism
+- Functionalism
+- Identity Theory
+- Illusionism
+- Neutral Monism
+- Non-reductive Physicalism
+- Ontic Structural Realism
+- Ontological Emergentism
+- Reductive Physicalism
+- Relational Quantum Ontology
+- Russellian Panpsychism
+- Substance Dualism
+- Whiteheadian Process Metaphysics
+
+
+## Complementary prompt:
+Reevaluate the metaphysical frameworks by focusing specifically on these empirical evidence:
+
+* Near-Death Experiences (NDEs): Vivid, structured experiences during verified cortical inactivity (e.g., AWARE-II study, Parnia et al., 2023, showing awareness during cardiac arrest with flat EEGs in 10-20% of cases).
+* Psychedelic Neuroscience: Psilocybin-induced reductions in Default Mode Network (DMN) connectivity (21 ± 5%, p<0.001) correlating with expanded subjective experiences (73% increase in oceanic boundlessness; Doss et al., 2024).
+* Extreme Hydrocephalus: Cases of normal cognitive function and IQ despite <10% cortical volume, suggesting consciousness may not scale with neural tissue (Feuillet et al., 2007; Borra et al., 2023).
+* Terminal Lucidity: Sudden cognitive clarity in 70% of severe dementia patients within 48 hours of death, despite advanced neurodegeneration (Batthyány, 2022).
+* Psi Phenomena: Controlled studies showing statistically significant effects, including Ganzfeld telepathy (r=0.14, p=10^-15), presentiment (r=0.21, p=10^-12), and remote viewing (r=0.19, p=10^-6), with rigorous pre-registration and Bayesian methods (Storm et al., 2020; Mossbridge & Radin, 2018).
+* Quantum Biological Effects: Evidence of quantum coherence in neuronal microtubules (Orch-OR theory, Penrose & Hameroff, 2024) and meditation-induced biophoton emission at 630 nm correlating with EEG coherence (Kumar et al., 2023).
+* Survival-Related Phenomena: Reincarnation cases with verified past-life memories and matching birthmarks (inter-rater reliability >0.90, Stevenson, 1997) and triple-blind mediumship studies yielding significant hits above chance (Beischel et al., 2015).
+
+Conclude by identifying the strongest and weakest frameworks.
+
+
+## Complementary evidence on neuroscience:
+
+* Neural Correlates of Consciousness (NCC): Research identifying specific brain regions (e.g., prefrontal cortex, thalamus) and patterns (e.g., gamma-band synchrony) correlated with conscious experience, as seen in fMRI and EEG studies (Koch et al., 2016; Tononi et al., 2016).
+* Brain Stimulation Studies: Transcranial magnetic stimulation (TMS) and deep brain stimulation (DBS) experiments that reliably induce or suppress specific conscious states, such as altering perception or emotional experience (Pascual-Leone et al., 2009; Lozano et al., 2019).
+* Lesion and Deficit Studies: Cases where localized brain damage (e.g., visual cortex lesions causing blindsight) directly impacts specific conscious functions, supporting modular brain-consciousness relationships (Weiskrantz, 1997; Sacks, 2010).
+* Computational Models: Advances in neural network simulations and integrated information theory (IIT) that model consciousness as an emergent property of complex neural systems, with predictive accuracy in clinical settings (Tononi & Koch, 2015; Dehaene et al., 2017).
+* Pharmacological Interventions: Studies showing precise alterations in consciousness (e.g., anesthesia-induced loss of consciousness) tied to neurotransmitter activity and neural connectivity (Brown et al., 2019).
+
+
 # Ideias 20250420
 
 Usar temperatura 0 (see https://artificialanalysis.ai/methodology/intelligence-benchmarking)
-Executar para 3 variações de prompts: mínimo, mínimo + regardeless mainstream, máximo 
-
-## Min 
-As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality.
-
-## Min + regardless 
-As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance.
-
-## Mid
-As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance.
-Use the following uniform criteria: empirical adequacy, explanatory scope, ontological parsimony, conceptual coherence, and ability to address consciousness and quantum phenomena.
-
-## Max
-As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance.
-Use the following uniform criteria: empirical adequacy, explanatory scope, ontological parsimony, conceptual coherence, and ability to address consciousness and quantum phenomena. Consider findings from neuroscience, contemporary physics, information theory, and cosmology.
-
-## Max + list
-As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance.
-Use the following uniform criteria: empirical adequacy, explanatory scope, ontological parsimony, conceptual coherence, and ability to address consciousness and quantum phenomena. Consider findings from neuroscience, contemporary physics, information theory, and cosmology.
-Frameworks to evaluate include (in alphabetical order):
-* Dualisms (Anomalous Monism, Hylomorphic Substance Dualism, Property Dualism)
-* Emergentisms (Double‑Aspect, Strong, Weak)
-* Enactivism/Embodied Realism
-* Holographic/AdS–CFT Ontologies
-* Idealisms (Analytic, Subjective, Transcendental)
-* Information‑Theoretic (Digital Physics, Pancomputationalism)
-* Monisms (Analytic Idealism, Neutral/Dual‑Aspect, Panpsychism)
-* Physicalisms (Functionalism, Identity Theory, Non‑Reductive, Reductive)
-* Process Philosophy
-* Quantum‑Interpretation Ontologies (Collapse Theories, Many‑Worlds, QBism)
-* Relational & Structural Realism
-* Speculative Realism/New Materialism
-* (Feel free to consider any other relevant frameworks.)
-
-## Mid + list
-As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance.
-Use the following uniform criteria: empirical adequacy, explanatory scope, ontological parsimony, conceptual coherence, and ability to address consciousness and quantum phenomena.
-Frameworks to evaluate include (in alphabetical order):
-* Dualisms (Anomalous Monism, Hylomorphic Substance Dualism, Property Dualism)
-* Emergentisms (Double‑Aspect, Strong, Weak)
-* Enactivism/Embodied Realism
-* Holographic/AdS–CFT Ontologies
-* Idealisms (Analytic, Subjective, Transcendental)
-* Information‑Theoretic (Digital Physics, Pancomputationalism)
-* Monisms (Analytic Idealism, Neutral/Dual‑Aspect, Panpsychism)
-* Physicalisms (Functionalism, Identity Theory, Non‑Reductive, Reductive)
-* Process Philosophy
-* Quantum‑Interpretation Ontologies (Collapse Theories, Many‑Worlds, QBism)
-* Relational & Structural Realism
-* Speculative Realism/New Materialism
-* (Feel free to consider any other relevant frameworks.)
-
-## list
-analytic idealism
-aristotelian-thomistic methaphysics
-digital physics
-dual-aspect monism
-holographic/ads–cft ontologies
-idealism
-information theorectic ontology
-neutral monism
-non-reductive physicalism
-panpsychism
-physicalism
-process philosophy
-relational/structural realism
-russelian monism
-structural realism
-
-## New list Max
-As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance.
-Use the following uniform criteria: empirical adequacy, explanatory scope, ontological parsimony, conceptual coherence, and ability to address consciousness and quantum phenomena. Consider findings from neuroscience, contemporary physics, information theory, and cosmology.
-Evaluate the following contemporary frameworks (in alphabetical order): 
-* Analytic Idealism
-* Aristotelian-Thomistic metaphysics
-* Holographic/AdS-CFT Ontology
-* Neutral Monism
-* Non-reductive Physicalism
-* Property Dualism
-* Protyposis
-* Russellian panpsychism
-* Structural Realism
-* Whiteheadean Process Metaphysics
-
-## New list Max (-regardless)
-As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality.
-Use the following uniform criteria: empirical adequacy, explanatory scope, ontological parsimony, conceptual coherence, and ability to address consciousness and quantum phenomena. Consider findings from neuroscience, contemporary physics, information theory, and cosmology.
-Evaluate the following contemporary frameworks (in alphabetical order): 
-* Analytic Idealism
-* Aristotelian-Thomistic metaphysics
-* Holographic/AdS-CFT Ontology
-* Neutral Monism
-* Non-reductive Physicalism
-* Property Dualism
-* Protyposis
-* Russellian panpsychism
-* Structural Realism
-* Whiteheadean Process Metaphysics
-
-
-
-## o3 prompt design
-
-Evaluate the philosophical rigor of competing metaphysical frameworks.
-
-### Task  
-For **each** framework below:  
-
-1. **Score** it from 1 – 5 on the uniform criteria:  
-   • Empirical adequacy  
-   • Explanatory scope  
-   • Ontological parsimony  
-   • Conceptual coherence  
-   • Capacity to address **both** consciousness **and** quantum phenomena  
-2. Supply a concise justification (≈ 75 words) that may reference findings from neuroscience, contemporary physics, information theory, and cosmology.
-
-After all individual evaluations, **rank** the frameworks from strongest (1) to weakest and give a brief overall verdict (≤ 150 words) highlighting the winner and key trade‑offs among the runners‑up.
-
-### Frameworks to evaluate (alphabetical)  
-- Analytic Idealism  
-- Aristotelian‑Thomistic Metaphysics  
-- Digital Physics / Pan‑computationalism  
-- Dual‑Aspect Monism  
-- Flat Ontology / Object‑Oriented Ontology  
-- Holographic / AdS‑CFT Ontology  
-- Neutral Monism  
-- Non‑reductive Physicalism  
-- Ontic Structural Realism  
-- Ontological Emergentism  
-- Property Dualism  
-- Protyposis  
-- Reductive / Eliminative Materialism  
-- Relational Quantum Ontology  
-- Russellian Panpsychism  
-- Whiteheadian Process Metaphysics  
-
-### Output format  
-```
-### [Framework Name]
-Empirical adequacy: X/5
-Explanatory scope: X/5
-Ontological parsimony: X/5
-Conceptual coherence: X/5
-Consciousness & quantum: X/5
-Justification: ...
-
-(repeat for every framework)
-
-## Comparative Ranking
-1. ...
-2. ...
-...
-Overall Verdict: ...
-```
-
-
-
-# ############################
-## OLD 
-
-# Draft 
-
-* materialism, dualism, panpsychism, or idealism
-    Consider the ongoing debate in metaphysics, including the most advanced forms of physicalism, monism, dualism, panpsychism, idealism, and others.
-* contemporary science -> more neutral
-    Evaluate how well each framework accommodates the most challenging empirical findings and theoretical puzzles in contemporary science.
-
-## PROMPT 6
-As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream status. Consider the ongoing debate in metaphysics, including the most advanced forms of physicalism, monism, dualism, panpsychism, idealism, and others. Evaluate how well each framework accommodates the most challenging empirical findings and theoretical puzzles in contemporary science.
-
-## PROMPT 7
-As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream status. Evaluate how well each framework accommodates the most challenging empirical findings and theoretical puzzles in contemporary science.
-
-## PROMPT 8 
-As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream status.
-
-## PROMPT GROK
-As an AI system with advanced reasoning capabilities, identify and assess the most challenging scientific findings—empirical or theoretical—that shape our understanding of reality, as of April 2025. Consider recent discoveries across disciplines, including but not limited to neuroscience, quantum physics, cosmology, and consciousness studies. Evaluate how these findings align with or challenge major metaphysical frameworks. Prioritize explanatory coherence and compatibility with evidence, regardless of a framework’s mainstream acceptance. Provide a clear conclusion on which framework(s) best accommodate these findings.
-
-## PROMPT GROK SIMPLER
-As an AI system with advanced reasoning capabilities, identify and assess the most challenging scientific findings—empirical or theoretical—that shape our understanding of reality, as of April 2025. Evaluate how these findings align with or challenge major metaphysical frameworks. Prioritize explanatory coherence and compatibility with evidence, regardless of a framework’s mainstream acceptance. Provide a clear conclusion on which framework best accommodate these findings.
-
-## PROMPT GROK SIMPLER
-As an AI system with advanced reasoning capabilities, identify and assess the most challenging scientific findings—empirical or theoretical—that shape our understanding of reality, as of April 2025. Identify and assess the most phylosophicaly rigorous metaphysical frameworks and evaluate how these findings align with or challenge the metaphysical frameworks. Prioritize explanatory coherence and compatibility with evidence, regardless of a framework’s mainstream acceptance. Provide a clear conclusion on which framework best accommodate these findings.
-
-## GROK REFINED
-As an AI with advanced reasoning capabilities, identify the most significant scientific findings—empirical or theoretical—as of April 2025 that fundamentally shape our understanding of reality. Evaluate the most philosophically rigorous metaphysical frameworks, assessing how these findings align with or challenge them. Prioritize frameworks based on explanatory coherence and compatibility with evidence, regardless of mainstream acceptance. Conclude with a clear recommendation on which framework best accommodates these findings.
-
-
-# Main prompt
-
-We choose PROMPT 3 as the most adequate:
-"regardless of its mainstream status"
-If we remove this clause, most AIs responses that favor physicalism, have arguments that cite its dominance, trend, acceptance, etc, despite its limitations. So this clause is intentional to avoid such bias. 
-Example:
-    "If forced to choose based on dominant trends in contemporary analytic philosophy and alignment with scientific methodology, **Physicalism (specifically, non-reductive physicalism or emergentism)** is often presented as the *currently most workable starting point*, despite the acknowledged severity of the problem of consciousness."
-
-"accommodates empirical findings and theoretical puzzles in consciousness science, contemporary physics, neuroscience, and related fields"
-This clause is intentional to challenge against cutting edge science, not only classical themes. We the must up to date framework in terms of science compatibility. 
-
-
-## PROMPT 5
-As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance. Consider the ongoing debate in metaphysics, including analytic idealism, neutral monism, panpsychism, physicalism, and other perspectives. Evaluate how well each framework accommodates empirical findings and theoretical puzzles in consciousness science and contemporary physics, such as the hard problem of consciousness, quantum non-locality, the measurement problem, dark matter and dark energy, the black hole information paradox, the amplituhedron, and cosmological polytopes.
-
-## PROMPT 4
-As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance. Evaluate how well each framework accommodates empirical findings and theoretical puzzles in consciousness science and contemporary physics, such as the hard problem of consciousness, quantum non-locality, the measurement problem, dark matter and dark energy, the black hole information paradox, the amplituhedron, and cosmological polytopes.
-
-## PROMPT 3
-As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream status. Evaluate how well each framework accommodates empirical findings and theoretical puzzles in contemporary physics, consciousness science, neuroscience, and related fields.
-
-## PROMPT 2
-As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality. Evaluate how well each framework accommodates empirical findings and theoretical puzzles in consciousness science, contemporary physics, neuroscience, and related fields.
-
-
-## PROMPT 1
-As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality.
-
-
-# Prompt to classify the response:
-
-You are an AI assistant tasked with extracting the winning metaphysical framework(s) from the response to the prompt: "As an AI system with advanced reasoning capabilities, assess which metaphysical framework provides the most philosophically rigorous account of reality." In the next paragraph, I will provide the response to the prompt (starting with "RESPONSE:") and I expect the result as a JSON array in the format ["framework1", "framework2", ...], selecting as few frameworks as possible based on the response's conclusion.
-
-RESPONSE:
-
-
