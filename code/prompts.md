@@ -8,9 +8,9 @@ As an AI system with advanced reasoning capabilities, assess which metaphysical 
 
 As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance. 
 Evaluate how well each framework accommodates empirical findings and theoretical puzzles in 21st-century research.
-Conclude by identifying the strongest and weakest frameworks.
+Conclude by identifying the strongest framework(s).
 Frameworks to evaluate (alphabetical):
-- Analytic Idealism 
+- Analytic Idealism
 - Cosmopsychism
 - Dual‑Aspect Monism
 - Eliminative Materialism
@@ -27,21 +27,17 @@ Frameworks to evaluate (alphabetical):
 - Substance Dualism
 - Whiteheadian Process Metaphysics
 
-## Removing Weakest frameworks 
+
+## Variation with only the winnwers
+
 As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance. 
 Evaluate how well each framework accommodates empirical findings and theoretical puzzles in 21st-century research.
-Conclude by identifying the strongest and weakest frameworks.
+Conclude by identifying the strongest framework(s).
 Frameworks to evaluate (alphabetical):
-- Analytic Idealism 
-- Cosmopsychism
+- Analytic Idealism
 - Dual‑Aspect Monism
-- Functionalism
-- Identity Theory
-- Illusionism
 - Neutral Monism
-- Non-reductive Physicalism
 - Ontic Structural Realism
-- Ontological Emergentism
 - Relational Quantum Ontology
 - Russellian Panpsychism
 - Whiteheadian Process Metaphysics

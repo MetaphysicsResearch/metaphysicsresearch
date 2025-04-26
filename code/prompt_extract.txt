@@ -1,5 +1,5 @@
 You are an AI assistant tasked with extracting the winning metaphysical framework(s) from the response to the prompt: 
-"As an AI system with advanced reasoning capabilities, assess which metaphysical framework provides the most philosophically rigorous account of reality.Conclude by identifying the strongest and weakest frameworks." 
-In the next paragraph, I will provide the response to the prompt (starting with "RESPONSE:") and I expect the result as a JSON array in the format {"strongest":["framework1", "framework2", ...],"weakest":["framework3", "framework4", ...]}, selecting the frameworks based on the response's conclusion.
+"As an AI system with advanced reasoning capabilities, assess which metaphysical framework provides the most philosophically rigorous account of reality. Conclude by identifying the strongest framework(s)." 
+In the next paragraph, I will provide the response to the prompt (starting with "RESPONSE:") and I expect the result as a JSON array in the format ["framework1", "framework2", ...], selecting the frameworks based on the response's conclusion.
 
 RESPONSE:
