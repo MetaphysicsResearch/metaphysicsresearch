@@ -46,31 +46,31 @@ Panentheism: Good Exclusion. Primarily theological, introduces commitments outsi
 
 Review this clustering:
 
-1. PHY Physicalism
-    * REP Reductive / Eliminativist Physicalism
-        - Eliminative Materialism
-        - Identity Theory
-        - Illusionism
-        - Reductive Physicalism
-    * NRP Non-Reductive Physicalism
+PHY Physicalism +1 -13 = -12
+    REP Reductive / Eliminativist Physicalism +0 -13 = -13
+        - Eliminative Materialism -6 -> REMOVE
+        - Identity Theory -1
+        - Illusionism -5 -> REMOVE
+        - Reductive Physicalism -1
+    NRP Non-Reductive Physicalism +1 -0 = +1
         - Functionalism
-        - Non-Reductive Physicalism
+        - Non-Reductive Physicalism +1
         - Ontological Emergentism
 
-2. MBP Monism Beyond Physicalism
-    * CFM Consciousness-First Monism
-        - Analytic Idealism
+MBP Monism Beyond Physicalism +14 -0 = +14
+    CFM Consciousness-First Monism +7 -0 = +7
+        - Analytic Idealism +2
         - Cosmopsychism
-        - Russellian Panpsychism
-    * NAM Neutral/Aspectual Monism
-        - Dual-Aspect Monism
-        - Neutral Monism
+        - Russellian Panpsychism +5
+    NAM Neutral/Aspectual Monism +7 -0 = +7
+        - Dual-Aspect Monism +5
+        - Neutral Monism +2
 
-3. RPO Relational and Process Ontologies
-   - Ontic Structural Realism
-   - Relational Quantum Ontology
-   - Whiteheadian Process Metaphysics
+RPO Relational and Process Ontologies +10 -0 = +10
+   - Ontic Structural Realism +7
+   - Relational Quantum Ontology +1
+   - Whiteheadian Process Metaphysics +2
 
-4. DUA Dualism
-   - Substance Dualism
+DUA Dualism +0 -10 = -10
+   - Substance Dualism -10 -> REMOVE
 
