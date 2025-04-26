@@ -1,51 +1,20 @@
-Evaluate the philosophical rigor of competing metaphysical frameworks.
-
-### Task  
-For **each** framework below:  
-
-1. **Score** it from 1 – 5 on the uniform criteria:  
-   • Empirical adequacy  
-   • Explanatory scope  
-   • Ontological parsimony  
-   • Conceptual coherence  
-   • Capacity to address **both** consciousness **and** quantum phenomena  
-2. Supply a concise justification (≈ 75 words) that may reference findings from neuroscience, contemporary physics, information theory, and cosmology.
-
-After all individual evaluations, **rank** the frameworks from strongest (1) to weakest and give a brief overall verdict (≤ 150 words) highlighting the winner and key trade‑offs among the runners‑up.
-
-### Frameworks to evaluate (alphabetical)  
-- Analytic Idealism  
-- Aristotelian‑Thomistic Metaphysics  
-- Digital Physics / Pan‑computationalism  
-- Dual‑Aspect Monism  
-- Flat Ontology / Object‑Oriented Ontology  
-- Holographic / AdS‑CFT Ontology  
-- Neutral Monism  
-- Non‑reductive Physicalism  
-- Ontic Structural Realism  
-- Ontological Emergentism  
-- Property Dualism  
-- Protyposis  
-- Reductive / Eliminative Materialism  
-- Relational Quantum Ontology  
-- Russellian Panpsychism  
-- Whiteheadian Process Metaphysics  
-
-### Output format  
-```
-### [Framework Name]
-Empirical adequacy: X/5
-Explanatory scope: X/5
-Ontological parsimony: X/5
-Conceptual coherence: X/5
-Consciousness & quantum: X/5
-Justification: ...
-
-(repeat for every framework)
-
-## Comparative Ranking
-1. ...
-2. ...
-...
-Overall Verdict: ...
-```
+As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance. 
+Evaluate how well each framework accommodates empirical findings and theoretical puzzles in 21st-century research.
+Conclude by identifying the strongest and weakest frameworks.
+Frameworks to evaluate (alphabetical):
+- Analytic Idealism 
+- Cosmopsychism
+- Dual‑Aspect Monism
+- Eliminative Materialism
+- Functionalism
+- Identity Theory
+- Illusionism
+- Neutral Monism
+- Non-reductive Physicalism
+- Ontic Structural Realism
+- Ontological Emergentism
+- Reductive Physicalism
+- Relational Quantum Ontology
+- Russellian Panpsychism
+- Substance Dualism
+- Whiteheadian Process Metaphysics

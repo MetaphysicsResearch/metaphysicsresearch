@@ -27,6 +27,25 @@ Frameworks to evaluate (alphabetical):
 - Substance Dualism
 - Whiteheadian Process Metaphysics
 
+## Removing Weakest frameworks 
+As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance. 
+Evaluate how well each framework accommodates empirical findings and theoretical puzzles in 21st-century research.
+Conclude by identifying the strongest and weakest frameworks.
+Frameworks to evaluate (alphabetical):
+- Analytic Idealism 
+- Cosmopsychism
+- Dual‑Aspect Monism
+- Functionalism
+- Identity Theory
+- Illusionism
+- Neutral Monism
+- Non-reductive Physicalism
+- Ontic Structural Realism
+- Ontological Emergentism
+- Relational Quantum Ontology
+- Russellian Panpsychism
+- Whiteheadian Process Metaphysics
+
 
 ## Complementary prompt:
 Reevaluate the metaphysical frameworks by focusing specifically on these empirical evidence:

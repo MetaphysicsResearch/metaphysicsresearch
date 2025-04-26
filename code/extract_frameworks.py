@@ -49,20 +49,24 @@ def extract_frameworks(response_text, api_key):
     # Call OpenRouter with grok-3-beta
     result = call_openrouter(full_prompt, "openai/o4-mini-high", api_key)
     
-    # Extract JSON array from the result
+    # Extract JSON object from the result
     try:
-        # Find the JSON array in the response
-        start = result.find('[')
-        end = result.rfind(']') + 1
+        # Find the JSON object in the response
+        start = result.find('{')
+        end = result.rfind('}') + 1
         if start == -1 or end == 0:
-            raise ValueError("No JSON array found in response")
-        frameworks = eval(result[start:end])  # Safe since we're only evaluating JSON array
+            raise ValueError("No JSON object found in response")
+        frameworks_dict = eval(result[start:end])  # Safe since we're only evaluating JSON object
+        
         # Convert all framework names to lowercase
-        frameworks = [f.lower() for f in frameworks]
-        return frameworks
+        frameworks_dict = {
+            "strongest": [f.lower() for f in frameworks_dict.get("strongest", [])],
+            "weakest": [f.lower() for f in frameworks_dict.get("weakest", [])]
+        }
+        return frameworks_dict
     except Exception as e:
         print(f"Error parsing frameworks from response: {str(e)}")
-        return []
+        return {"strongest": [], "weakest": []}
 
 def extract_model_name(filename):
     # Remove the timestamp part (e.g., _20250416_115603)
@@ -92,7 +96,7 @@ def main():
     
     with open(frameworks_file, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=";")
-        writer.writerow(['Execution', 'Frameworks'])
+        writer.writerow(['Execution', 'Strongest Frameworks', 'Weakest Frameworks'])
         
         # Process each model response file
         for filename in sorted(os.listdir(data_dir)):
@@ -108,10 +112,15 @@ def main():
                 frameworks = extract_frameworks(response_text, api_key)
                 
                 # Sort frameworks alphabetically
-                frameworks.sort()
+                frameworks["strongest"].sort()
+                frameworks["weakest"].sort()
                 
                 # Write to CSV
-                writer.writerow([filename, frameworks])
+                writer.writerow([
+                    filename,
+                    frameworks["strongest"],
+                    frameworks["weakest"]
+                ])
                 print(f"Processed {filename}")
                 
             except Exception as e:
