@@ -20,7 +20,8 @@ Frameworks to evaluate (alphabetical):
 - Neutral Monism
 - Non-reductive Physicalism
 - Ontic Structural Realism
-- Ontological Emergentism
+- Physicalist Emergentism
+- Property Dualism
 - Reductive Physicalism
 - Relational Quantum Ontology
 - Russellian Panpsychism
@@ -43,7 +44,8 @@ Frameworks to evaluate (alphabetical):
 - Neutral Monism
 - Non-reductive Physicalism
 - Ontic Structural Realism
-- Ontological Emergentism
+- Physicalist Emergentism
+- Property Dualism
 - Reductive Physicalism
 - Relational Quantum Ontology
 - Russellian Panpsychism
@@ -65,7 +67,8 @@ Frameworks to evaluate (alphabetical):
 - Neutral Monism
 - Non-reductive Physicalism
 - Ontic Structural Realism
-- Ontological Emergentism
+- Physicalist Emergentism
+- Property Dualism
 - Reductive Physicalism
 - Relational Quantum Ontology
 - Russellian Panpsychism
@@ -87,7 +90,8 @@ Frameworks to evaluate (alphabetical):
 - Neutral Monism
 - Non-reductive Physicalism
 - Ontic Structural Realism
-- Ontological Emergentism
+- Physicalist Emergentism
+- Property Dualism
 - Reductive Physicalism
 - Relational Quantum Ontology
 - Russellian Panpsychism

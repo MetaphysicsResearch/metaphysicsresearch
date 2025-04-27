@@ -14,11 +14,11 @@ Illusionism: Good. A prominent contemporary position on consciousness within (us
 Neutral Monism: Good. Historically significant, experiencing renewed interest, offers a unique monistic alternative.
 Non-reductive Physicalism: Excellent inclusion. Represents a major, arguably dominant, position attempting to reconcile physicalism with non-reducible phenomena like mind.
 Ontic Structural Realism: Excellent inclusion. Directly motivated by interpretations of modern physics (QM, GR), focuses on structure.
-Ontological Emergentism: Good. Captures the idea of fundamentally new properties/entities arising from lower levels, crucial for debates in biology, chemistry, and mind within a physicalist or non-physicalist context.
+Physicalist Emergentism: Good. Captures the idea of fundamentally new properties/entities arising from lower levels, crucial for debates in biology, chemistry, and mind within a physicalist or non-physicalist context.
+Property Dualism: Good. Present in contemporary philosophy of mind (e.g., Chalmers, Nagel).
 Reductive Physicalism: Excellent inclusion. Replaces "Flat Materialism" with the canonical term. This is the standard baseline physicalist view.
 Relational Quantum Ontology: Good. Represents a specific, influential ontological interpretation of QM focusing on relations.
 Russellian Panpsychism: Good. A major contemporary version of panpsychism focusing on the intrinsic nature of matter.
-Substance Dualism: Good. The classic foil to physicalism, essential for context and comparison, still has defenders.
 Whiteheadian Process Metaphysics: Good. A comprehensive alternative focusing on process, with potential links to physics and biology.
 
 
@@ -38,6 +38,7 @@ Information-Theoretic Ontologies: Good Exclusion. Often slogans ("It from Bit") 
 Mereological Nihilism: Good Exclusion. Specific thesis about composition, not a complete framework.
 Modal Realism (Lewisian): Good Exclusion. Focuses on modality, tenuous connection to accommodating empirical science.
 Constructive Empiricism: Good Exclusion. Epistemological stance on science, not a metaphysics of reality.
+Substance Dualism: Good. The classic foil to physicalism, consider Property Dualism instead.
 Pansemiotism: Good Exclusion. Less canonical and less directly focused on the prompt's specific science criteria compared to included frameworks.
 Panentheism: Good Exclusion. Primarily theological, introduces commitments outside the likely scope of the prompt.
 
@@ -46,31 +47,32 @@ Panentheism: Good Exclusion. Primarily theological, introduces commitments outsi
 
 Review this clustering:
 
-PHY Physicalism +1 -13 = -12
-    REP Reductive / Eliminativist Physicalism +0 -13 = -13
-        - Eliminative Materialism -6 -> REMOVE
-        - Identity Theory -1
-        - Illusionism -5 -> REMOVE
-        - Reductive Physicalism -1
-    NRP Non-Reductive Physicalism +1 -0 = +1
+PHY Physicalism
+    REP Reductive / Eliminativist Physicalism
+        - Eliminative Materialism
+        - Identity Theory
+        - Illusionism
+        - Reductive Physicalism
+    NRP Non-Reductive Physicalism
         - Functionalism
-        - Non-Reductive Physicalism +1
-        - Ontological Emergentism
+        - Non-Reductive Physicalism
+        - Physicalist Emergentism
 
-MBP Monism Beyond Physicalism +14 -0 = +14
-    CFM Consciousness-First Monism +7 -0 = +7
-        - Analytic Idealism +2
+MBP Monism Beyond Physicalism
+    CFM Consciousness-First Monism
+        - Analytic Idealism
         - Cosmopsychism
-        - Russellian Panpsychism +5
-    NAM Neutral/Aspectual Monism +7 -0 = +7
-        - Dual-Aspect Monism +5
-        - Neutral Monism +2
+        - Russellian Panpsychism
+    NAM Neutral/Aspectual Monism
+        - Dual-Aspect Monism
+        - Neutral Monism
 
-RPO Relational and Process Ontologies +10 -0 = +10
-   - Ontic Structural Realism +7
-   - Relational Quantum Ontology +1
-   - Whiteheadian Process Metaphysics +2
+RPO Relational and Process Ontologies
+   - Ontic Structural Realism
+   - Relational Quantum Ontology
+   - Whiteheadian Process Metaphysics
 
-DUA Dualism +0 -10 = -10
-   - Substance Dualism -10 -> REMOVE
+DUA Dualism
+   - Property Dualism
+   - Substance Dualism
 
