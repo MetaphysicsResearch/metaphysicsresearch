@@ -33,7 +33,7 @@ def call_openrouter(prompt, model, api_key):
     data = {
         "model": model.strip(),
         "messages": [{"role": "user", "content": prompt}],
-        # "temperature": 0 
+        # "temperature": 0 # Lets use OpenRouter default 1 instead of 0
     }
     try:
         response = requests.post(url, json=data, headers=headers)
