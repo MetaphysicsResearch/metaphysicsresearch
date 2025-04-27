@@ -95,8 +95,8 @@ def process_frameworks_data(directory):
     
     # Save results
     output_dir = directory
-    overall_df.to_csv(os.path.join(output_dir, 'framework_overall_counts.csv'), index=False)
-    lab_df.to_csv(os.path.join(output_dir, 'framework_lab_counts.csv'), index=False)
+    overall_df.to_csv(os.path.join(output_dir, '_framework_overall_counts.csv'), index=False)
+    lab_df.to_csv(os.path.join(output_dir, '_framework_lab_counts.csv'), index=False)
     
     print("\nResults summary:")
     print("\nOverall counts:")
@@ -104,7 +104,7 @@ def process_frameworks_data(directory):
     print("\nLab-specific counts:")
     print(lab_df)
     
-    print(f"\nResults saved to {output_dir}/framework_overall_counts.csv and {output_dir}/framework_lab_counts.csv")
+    print(f"\nResults saved to {output_dir}/framework_overall_counts.csv and {output_dir}/_framework_lab_counts.csv")
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
