@@ -47,32 +47,62 @@ Panentheism: Good Exclusion. Primarily theological, introduces commitments outsi
 
 Review this clustering:
 
-PHY Physicalism
+PHY Physicalisms
     REP Reductive / Eliminativist Physicalism
-        - Eliminative Materialism
-        - Identity Theory
-        - Illusionism
-        - Reductive Physicalism
-    NRP Non-Reductive Physicalism
-        - Functionalism
-        - Non-Reductive Physicalism
-        - Physicalist Emergentism
+        Eliminative Materialism
+        Identity Theory
+        Illusionism
+        Reductive Physicalism
+    NRP Non-Reductive Physicalisms
+        Functionalism
+        Non-Reductive Physicalism
+        Physicalist Emergentism
 
-MBP Monism Beyond Physicalism
+MBP Monisms Beyond Physicalism
     CFM Consciousness-First Monism
-        - Analytic Idealism
-        - Cosmopsychism
-        - Russellian Panpsychism
-    NAM Neutral/Aspectual Monism
-        - Dual-Aspect Monism
-        - Neutral Monism
+        Analytic Idealism
+        Cosmopsychism
+        Russellian Panpsychism
+    NAM Neutral/Aspectual Monisms
+        Dual-Aspect Monism
+        Neutral Monism
 
 RPO Relational and Process Ontologies
-   - Ontic Structural Realism
-   - Relational Quantum Ontology
-   - Whiteheadian Process Metaphysics
+   Ontic Structural Realism
+   Relational Quantum Ontology
+   Whiteheadian Process Metaphysics
 
-DUA Dualism
-   - Property Dualism
-   - Substance Dualism
+DUA Dualisms
+   Property Dualism
+   Substance Dualism
 
+
+
+Physicalisms (PHY)
+    Reductive / Eliminativist Physicalism (REP)
+        Eliminative Materialism
+        Identity Theory
+        Illusionism
+        Reductive Physicalism
+    Non-Reductive Physicalisms (NRP)
+        Functionalism
+        Non-Reductive Physicalism
+        Physicalist Emergentism
+
+Monisms Beyond Physicalism (MBP)
+    Consciousness-First Monism (CFM)
+        Analytic Idealism
+        Cosmopsychism
+        Russellian Panpsychism
+    Neutral/Aspectual Monisms (NAM)
+        Dual-Aspect Monism
+        Neutral Monism
+
+Relational and Process Ontologies (RPO)
+   Ontic Structural Realism
+   Relational Quantum Ontology
+   Whiteheadian Process Metaphysics
+
+Dualisms (DUA)
+   Property Dualism
+   Substance Dualism

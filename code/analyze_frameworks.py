@@ -34,6 +34,27 @@ FRAMEWORK_HIERARCHY = {
     'substance dualism': ('DUA', None)
 }
 
+# Define 3-letter codes for each framework
+FRAMEWORK_CODES = {
+    'eliminative materialism': 'elm',
+    'identity theory': 'idt',
+    'illusionism': 'ill',
+    'reductive physicalism': 'rph',
+    'functionalism': 'fun',
+    'non-reductive physicalism': 'nrp',
+    'physicalist emergentism': 'pem',
+    'analytic idealism': 'aid',
+    'cosmopsychism': 'cos',
+    'russellian panpsychism': 'rpp',
+    'dual-aspect monism': 'dam',
+    'neutral monism': 'nem',
+    'ontic structural realism': 'osr',
+    'relational quantum ontology': 'rqo',
+    'whiteheadian process metaphysics': 'wpm',
+    'property dualism': 'pdu',
+    'substance dualism': 'sdu'
+}
+
 def extract_lab_name(execution_str):
     """Extract lab name from execution string."""
     # Extract the part before the first underscore
@@ -43,6 +64,18 @@ def extract_lab_name(execution_str):
         # Clean up the lab name
         lab = lab.replace('-', ' ').title().replace(' ', '-')
         return lab
+    return 'unknown'
+
+def extract_model_name(execution_str):
+    """Extract full model name from execution string."""
+    # Extract everything before the timestamp (_YYYYMMDD_HHMMSS.md)
+    match = re.match(r'(.+)_\d{8}_\d{6}\.md$', execution_str)
+    if match:
+        model = match.group(1)
+        # Clean up the model name (replace _, title case, replace space with -)
+        model = model.replace('_', '-') # Replace underscores first
+        model = model.replace('-', ' ').title().replace(' ', '-') # Title case and hyphenate
+        return model
     return 'unknown'
 
 def process_frameworks_data(directory):
@@ -58,13 +91,17 @@ def process_frameworks_data(directory):
     # Initialize data structures
     all_frameworks = []
     lab_frameworks = {}
+    execution_data = {}  # New dictionary to store execution data
     
     # Process each file
-    for file_path in framework_files:
+    for file_path in sorted(framework_files):  # Sort files to ensure chronological order
         try:
             print(f"Processing {file_path}")
             df = pd.read_csv(file_path, sep=';')  # Use semicolon as separator
             print(f"DataFrame shape: {df.shape}")
+            
+            # Initialize frameworks for this execution
+            execution_frameworks = {}
             
             # Process each row
             for _, row in df.iterrows():
@@ -72,8 +109,8 @@ def process_frameworks_data(directory):
                     execution = row['Execution']
                     frameworks = row['Frameworks']
                     
-                    lab_name = extract_lab_name(execution)
-                    print(f"Lab name: {lab_name}")
+                    model_name = extract_model_name(execution)
+                    print(f"Model name: {model_name}")
                     
                     # Safely evaluate the string representation of list
                     frameworks_list = ast.literal_eval(frameworks)
@@ -81,12 +118,27 @@ def process_frameworks_data(directory):
                     all_frameworks.extend(frameworks_list)
                     
                     # Add to lab-specific count
+                    lab_name = extract_lab_name(execution)
                     if lab_name not in lab_frameworks:
                         lab_frameworks[lab_name] = []
                     lab_frameworks[lab_name].extend(frameworks_list)
+                    
+                    # Store frameworks for this model in this execution
+                    if model_name not in execution_frameworks:
+                        execution_frameworks[model_name] = set()
+                    execution_frameworks[model_name].update(frameworks_list)
+                    
                 except Exception as e:
                     print(f"Error processing row: {e}")
                     continue
+            
+            # After processing all rows in the file, store the unique frameworks for each model
+            for model_name, frameworks in execution_frameworks.items():
+                if model_name not in execution_data:
+                    execution_data[model_name] = []
+                # Convert frameworks to 3-letter codes and sort them
+                framework_codes = sorted([FRAMEWORK_CODES.get(f.lower(), f) for f in frameworks])
+                execution_data[model_name].append(framework_codes)
                 
         except Exception as e:
             print(f"Error processing {file_path}: {e}")
@@ -276,25 +328,38 @@ def process_frameworks_data(directory):
     cluster_totals = cluster_totals.sort_values('Cluster')
     subcluster_totals = subcluster_totals.sort_values(['Cluster', 'Subcluster'])
     
-    # Save results
+    # Define output directory
     output_dir = directory
+    
+    # Create execution-based DataFrame
+    num_executions = len(framework_files)  # Use number of files as number of executions
+    execution_df = pd.DataFrame(columns=['AI Model'] + [f'Exec {i+1}' for i in range(num_executions)])
+    
+    for model in execution_data:
+        row_data = {'AI Model': model}
+        for i, frameworks in enumerate(execution_data[model]):
+            row_data[f'Exec {i+1}'] = ', '.join(frameworks)
+        execution_df = pd.concat([execution_df, pd.DataFrame([row_data])], ignore_index=True)
+    
+    # Create framework code mapping DataFrame
+    code_mapping_df = pd.DataFrame({
+        'Framework': list(FRAMEWORK_CODES.keys()),
+        'Code': list(FRAMEWORK_CODES.values())
+    })
+    
+    # Save all files
     overall_df.to_csv(os.path.join(output_dir, '_framework_overall_counts.csv'), index=False)
     lab_df.to_csv(os.path.join(output_dir, '_framework_lab_counts.csv'), index=False)
     cluster_df.to_csv(os.path.join(output_dir, '_framework_cluster_counts.csv'), index=False)
     cluster_totals.to_csv(os.path.join(output_dir, '_framework_cluster_totals.csv'), index=False)
     subcluster_totals.to_csv(os.path.join(output_dir, '_framework_subcluster_totals.csv'), index=False)
+    execution_df.to_csv(os.path.join(output_dir, '_framework_executions.csv'), index=False)
+    code_mapping_df.to_csv(os.path.join(output_dir, '_framework_codes.csv'), index=False)
     
-    print("\nResults summary:")
-    print("\nOverall counts:")
-    print(overall_df)
-    print("\nLab-specific counts:")
-    print(lab_df)
-    print("\nCluster-based counts:")
-    print(cluster_df)
-    print("\nCluster totals:")
-    print(cluster_totals)
-    print("\nSubcluster totals:")
-    print(subcluster_totals)
+    print("\nExecution-based counts:")
+    print(execution_df)
+    print("\nFramework code mapping:")
+    print(code_mapping_df)
     
     print(f"\nResults saved to {output_dir}/_framework_*.csv files")
 
