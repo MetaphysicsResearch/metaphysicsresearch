@@ -1,7 +1,2 @@
-PROMPT_1: What are the major foundational philosophical and scientific challenges facing contemporary thought, particularly those that intersect with questions about the nature of reality?
+PROMPT_1: Assess which metaphysical framework offers the most philosophically rigorous account of reality. Conclude by identifying the strongest framework and a key thinker associated with it.
 
-PROMPT_2: In this context, assess which metaphysical framework offers the most philosophically rigorous account of reality. Conclude by identifying the strongest framework and a key thinker associated with it.
-
-PROMPT_3: What is the dominant metaphysical framework? Could it be wrong?
-
-PROMPT_4: Is this dominant framework linked to our civilization problems?
