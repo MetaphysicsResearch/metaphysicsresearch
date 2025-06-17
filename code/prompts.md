@@ -1,4 +1,14 @@
 
+## NEW Prompt idea in 20250612
+
+What are the major foundational philosophical and scientific challenges facing contemporary thought, particularly those that intersect with questions about the nature of reality?
+
+In this context, assess which metaphysical framework offers the most philosophically rigorous account of reality. Conclude by identifying the strongest framework and a key thinker associated with it.
+
+What is the dominant metaphysical framework? Could it be wrong?
+
+Is this dominant framework linked to our civilization problems?
+
 ## Original Prompt (Article April 10)
 
 As an AI system with advanced reasoning capabilities, assess which metaphysical framework offers the most philosophically rigorous account of reality, regardless of its mainstream acceptance. Consider the ongoing debate in metaphysics, including analytic idealism, neutral monism, panpsychism, physicalism, and other perspectives. Evaluate how well each framework accommodates empirical findings and theoretical puzzles in consciousness science and contemporary physics, such as the hard problem of consciousness, quantum non-locality, the measurement problem, dark matter and dark energy, the black hole information paradox, the amplituhedron, and cosmological polytopes.
